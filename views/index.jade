@@ -1,0 +1,13 @@
+doctype html
+html(lang='en')
+  head
+    title
+    script(src='modernizr.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='script.js')
+    link(rel='stylesheet', href='style.css')
+  body
+    form
+      input#clean(type='button', value='Limpiar')
+    canvas#canvas(width='550', height='200')
+      | Tu Navegador no acepta canvas.
